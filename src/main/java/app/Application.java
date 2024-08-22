@@ -101,6 +101,8 @@ public class Application
 				choice = in.next().charAt(0);
 			}
 		}
+		
+		in.close();
 	}
 	
 	public static void prompt()
